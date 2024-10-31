@@ -1,0 +1,75 @@
+/* Sembunyikan scrollbar */
+html, body {
+    overflow-y: scroll; 
+    scrollbar-width: none; 
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Style Navbar */
+.navhome:hover {
+    color: #ffc400;
+    background-color: rgb(105, 101, 101);
+}
+
+.navhome:active {
+    color: #e6ff07;
+    background-color: rgb(0, 0, 0);
+}
+
+.navcontact {
+    color: rgb(255, 255, 255);
+}
+
+.dropdown {
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.dropdown:hover {
+    color: #ffc400;
+    background-color: rgba(105, 101, 101, 0);
+}
+
+.dropdown:active {
+    color: #e6ff07;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navcrypto {
+    color: #ffc400 !important;
+    border: #ffc400 !important;
+}
+
+
+.cryptocurrency {
+    opacity: 75%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.exchange {
+    opacity: 75%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
